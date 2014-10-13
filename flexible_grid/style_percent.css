@@ -1,26 +1,9 @@
 /* spec width, or measurements in px will usually mean a 
  * base width as referred to by spec in the responsive book */
-/*div {
-	border: 1px solid black;
-}*/
-
-/*.container:before, 
-.container:after{
-	content:"";
-	display:table;
-}
-.container:after  {
-	clear:both;
-}
-.container {
-	zoom:1;
-}*/
-
 .page {
 	margin: 36px auto;
 	/*width: 960px;*/
 	width: 90%;
-
 	background-color: rgba(200,200,230,1);
 	font-family:arial,sans-serif;
 }
@@ -36,7 +19,6 @@
         /* 900px / 960px *  , basing off of context width 
         (context beign div.page) rather than base font size*/ 
 	width: 93.75%; 
-
 	background-color: rgba(240,200,200,1);
 }
 
@@ -45,18 +27,16 @@
 	/*width:566px;*/
 	/*context is 900px div.blog, so 566px/900px */
 	width:62.8888889%; 
-
 	background-color: rgba(200,240,200,1);
 }
 
-.blog .main .article  {
+.blog .article  {
 	float: left;
 	/*context is main, spec width 566px*/
 	/* line up the text with the title padding */
 	/* the intent is to make the text take up a spec width of 474px */
         padding: 40px 8.48056537%; /* 48px/566px */
 	width : 83.74558303886925%;/*474px/566px */
-
 	background-color: rgba(240,240,200,1);
 }
 
