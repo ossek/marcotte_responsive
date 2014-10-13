@@ -1,0 +1,26 @@
+body {
+	background-color: #DCDBD9;
+	color: #2C2C2C;
+	/* set base type size to the browser's default.  use
+	 * ems to size up or down from here. */
+	font: normal 100% Cambria, Georgia, serif;
+}
+
+h1 {
+	/*think in terms  ratio=(target font size )/(context or containing font size)*/
+	/* aka "target / context = result" */
+	font-size:1.5em; /*assuming base size of 16px, and desired 24, 24/16 = 1.5*/
+	font-style: italic;
+	font-weight: normal;
+}
+
+h1 a {
+	color: #747474;
+	/*since the a is a child of h1, ems are relative to 
+	 * the parent/containing h1 size. Assuming that's 24px, 
+         * ratio=11px/24px */
+	font: bold 0.458333333333333em Calibri,Optima, Arial, sans-serif;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	text-decoration: none;
+}

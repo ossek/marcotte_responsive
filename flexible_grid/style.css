@@ -1,0 +1,50 @@
+/*div {
+	border: 1px solid black;
+}*/
+
+/*.container:before, 
+.container:after{
+	content:"";
+	display:table;
+}
+.container:after  {
+	clear:both;
+}
+.container {
+	zoom:1;
+}*/
+
+.page {
+	/*margin: 36px auto;*/
+	margin: 2.25em auto;
+	/*width: 960px;*/
+	width: 60em;
+
+	background-color: rgba(200,200,230,1);
+}
+
+.blog {
+	/*margin: 0 auto 53px;*/
+	margin: 0 auto 3.3125em;
+	/*width: 900px;*/
+	width: 56.25em;
+
+	background-color: rgba(240,200,200,1);
+}
+
+.blog .main, .blog .main .article {
+	float: left;
+	/*width:566px;*/
+	width:35.375em;
+
+	background-color: rgba(200,240,200,1);
+}
+
+.blog .other {
+	float: right;
+	/*width: 331px*/;
+	width: 20.6875em;
+
+	background-color: rgba(240,240,240,1);
+}
+
